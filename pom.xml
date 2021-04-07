@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>springless-examples</artifactId>
+    <packaging>pom</packaging>
+
+    <parent>
+        <artifactId>springless-examples-parent</artifactId>
+        <groupId>nl.robertlemmens</groupId>
+        <version>1.0.0-SNAPSHOT</version>
+        <relativePath>springless-examples-parent</relativePath>
+    </parent>
+
+    <modules>
+        <module>springless-examples-parent</module>
+        <module>simple-frontend-server/simple-frontend-server-vanilla</module>
+        <module>simple-frontend-server/simple-frontend-server-spring</module>
+        <module>simple-crud-server/simple-crud-server-vanilla</module>
+        <module>simple-crud-server/simple-crud-server-spring</module>
+    </modules>
+
+</project>
