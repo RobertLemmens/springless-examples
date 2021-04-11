@@ -1,4 +1,4 @@
-package nl.robertlemmens;
+package nl.robertlemmens.application;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

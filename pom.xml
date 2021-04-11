@@ -20,6 +20,8 @@
         <module>simple-frontend-server/simple-frontend-server-spring</module>
         <module>simple-crud-server/simple-crud-server-vanilla</module>
         <module>simple-crud-server/simple-crud-server-spring</module>
+        <module>simple-websocket-server/simple-websocket-server-spring</module>
+        <module>simple-websocket-server/simple-websocket-server-vanilla</module>
     </modules>
 
 </project>

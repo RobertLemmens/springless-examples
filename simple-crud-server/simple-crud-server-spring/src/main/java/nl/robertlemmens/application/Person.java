@@ -1,4 +1,4 @@
-package nl.robertlemmens;
+package nl.robertlemmens.application;
 
 public class Person {
 

@@ -1,9 +1,8 @@
-package nl.robertlemmens;
+package nl.robertlemmens.application;
 
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
