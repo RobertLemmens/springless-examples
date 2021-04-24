@@ -2,9 +2,8 @@
 ## What this is
 This repository shows you how to do simple stuff without spring.
 Nowadays I see too many developers resort to spring for things that can easily be done without any dependencies at all.
-The argument is usually development speed or complexity or something along those lines, but I think you rarely need excessively more code doing it vanilla than in spring.
 
-I'd like to create awareness that this doesn't have to be the case. We can create software that starts fast, is small, has no dependency hell and performs great without spring (or other big dependencies).
+We can create software that starts fast, is small, has no dependency hell and performs great without spring (or other big dependencies).
  All in pure java.
 
 In my examples I will try to do stuff I have seen people do in real projects, or the most straightforward way (e.g. official docs), some might be stupid and can be solved an entirely different way, but it paints a picture nonetheless.
