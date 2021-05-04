@@ -13,8 +13,8 @@ import java.util.regex.Pattern;
 
 public class ClientSocketConnection extends Thread {
 
-    private static int FIN = 0x80;
-    private static int TEXT_OPCODE = 0x1;
+    private static int FIN = 0b1000_0000;
+    private static int TEXT_OPCODE = 0b0000_0001;
     private static int PING_OPCODE = 0x9;
     private static int PONG_OPCODE = 0xA;
     private static int MASK = 0x8;
@@ -55,9 +55,6 @@ public class ClientSocketConnection extends Thread {
             try {
                 // Get FIN and OPCODE (only support text)
                 int finOpcode = in.read();
-                if (finOpcode == (FIN | TEXT_OPCODE)) {
-                    System.out.println("Full message, text");
-                }
                 int lenByte = in.read();
                 if ( (lenByte - 128) >= 126) {
                     System.out.println("extended payload not supported");

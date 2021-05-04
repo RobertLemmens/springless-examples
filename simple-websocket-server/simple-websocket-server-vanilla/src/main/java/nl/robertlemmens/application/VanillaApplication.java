@@ -4,7 +4,7 @@ package nl.robertlemmens.application;
  *
  *   A very simple websocket server, using normal threads.
  *   We can create something more performant with NIO, but we wont bother for now.
- *   maybe ill create example one day.
+ *   maybe ill create an example one day.
  *
  *   this server accepts a message, and sends it back.
  *
